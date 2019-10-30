@@ -1,1 +1,1 @@
-# sd-midterm2
+# Distributed Systems exam 2
