@@ -13,7 +13,7 @@ var connection = require('../databases/mysql_manager');
 var operativeSystem = require('os');
 var networkInterfaces = operativeSystem.networkInterfaces();
 var apiServiceLocation = {
-    apiServiceName: operativeSystem.hostname(),
+    // apiServiceName: operativeSystem.hostname(),
     apiServiceAddress: networkInterfaces[IPv4networkInterface][0].address
 };
 
